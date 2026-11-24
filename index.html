@@ -159,7 +159,7 @@ ES / ES_WHY / ES_TITLES / ES_CATS (below the lists): Spanish translations, fork 
 SORTS: lesson, title, cats (group name -> phrases from CARDS)
 A new lesson name in CARDS automatically becomes a new lesson button. */
 /*DATA START*/
-const L1="Lesson 1";
+const L1="Lesson 1",L2="Lesson 2";
 const CARDS=[
 {lesson:L1,en:"only child",uk:"a child with no brothers or sisters",ex:"I have no brothers or sisters. I'm an ___ child.",ans:"only",col:["be an only child","grow up as an only child"],dict:"only child"},
 {lesson:L1,en:"nephew",uk:"the son of your brother or sister",ex:"My brother has a son. He is my ___.",ans:"nephew",col:["my nephew","nephew and niece","a young nephew"],dict:"nephew"},
@@ -219,33 +219,105 @@ const CARDS=[
 {lesson:L1,en:"borrow",uk:"to take something and give it back later",ex:"Can I ___ your pen, please?",ans:"borrow",col:["borrow money","borrow a book","borrow from a friend"],dict:"borrow"},
 {lesson:L1,en:"especially",uk:"more than others; in particular",ex:"I like fruit, ___ apples.",ans:"especially",col:["especially for you","especially when","not especially"],dict:"especially"},
 {lesson:L1,en:"light brown",uk:"a pale brown colour",ex:"My brother has ___ brown hair and green eyes.",ans:"light",col:["light brown hair","light brown eyes","a light brown bag"],dict:"light brown"},
-{lesson:L1,en:"dark blonde",uk:"a colour of hair between blonde and brown",ex:"She has long ___ blonde hair.",ans:"dark",col:["dark blonde hair","long dark blonde hair"],dict:"dark blonde"}
+{lesson:L1,en:"dark blonde",uk:"a colour of hair between blonde and brown",ex:"She has long ___ blonde hair.",ans:"dark",col:["dark blonde hair","long dark blonde hair"],dict:"dark blonde"},
+{lesson:L2,en:"actor/actress",uk:"a person who acts in films or plays",ex:"My aunt is an ___. She is in a new film.",ans:"actress",alt:["actor"],col:["a famous actor","a film actress"],dict:"actor"},
+{lesson:L2,en:"chef",uk:"a person who cooks in a restaurant",ex:"The ___ cooks pasta in the restaurant.",ans:"chef",col:["a famous chef","a head chef"],dict:"chef"},
+{lesson:L2,en:"cleaner",uk:"a person whose job is to clean buildings",ex:"The ___ cleans our school every evening.",ans:"cleaner",col:["an office cleaner","a school cleaner"],dict:"cleaner"},
+{lesson:L2,en:"computer technician",uk:"a person who fixes computers",ex:"My laptop is broken, so I will call a computer ___.",ans:"technician",col:["call a computer technician","a good technician"],dict:"technician"},
+{lesson:L2,en:"doctor",uk:"a person who helps people when they are ill",ex:"I'm ill, so I'm going to the ___.",ans:"doctor",col:["see a doctor","go to the doctor","a family doctor"],dict:"doctor"},
+{lesson:L2,en:"driver",uk:"a person who drives a car, bus or truck",ex:"The bus ___ is very friendly.",ans:"driver",col:["a bus driver","a taxi driver"],dict:"driver"},
+{lesson:L2,en:"farmer",uk:"a person who grows food or keeps animals on a farm",ex:"The ___ gets up at five to feed the cows.",ans:"farmer",col:["a local farmer","a sheep farmer"],dict:"farmer"},
+{lesson:L2,en:"firefighter",uk:"a person whose job is to stop fires",ex:"The ___ came in a red truck and stopped the fire.",ans:"firefighter",col:["a brave firefighter","call a firefighter"],dict:"firefighter"},
+{lesson:L2,en:"guard",uk:"a person who protects a place or people",ex:"A ___ stands at the door of the museum.",ans:"guard",col:["a security guard","a museum guard"],dict:"guard"},
+{lesson:L2,en:"hairdresser",uk:"a person who cuts and washes hair",ex:"I'm going to the ___ to get a new haircut.",ans:"hairdresser",col:["go to the hairdresser","a good hairdresser"],dict:"hairdresser"},
+{lesson:L2,en:"job",uk:"the work you do to earn money",ex:"My brother has a new ___ in a bank.",ans:"job",col:["a good job","find a job","have a job"],dict:"job"},
+{lesson:L2,en:"mechanic",uk:"a person who fixes cars",ex:"The ___ is fixing my car in the garage.",ans:"mechanic",col:["a car mechanic","a good mechanic"],dict:"mechanic"},
+{lesson:L2,en:"musician",uk:"a person who plays or writes music",ex:"The ___ plays the guitar in a band.",ans:"musician",col:["a street musician","a talented musician"],dict:"musician"},
+{lesson:L2,en:"nurse",uk:"a person who looks after ill people, often in a hospital",ex:"The ___ works in a hospital and helps ill people.",ans:"nurse",col:["a hospital nurse","a kind nurse"],dict:"nurse"},
+{lesson:L2,en:"photographer",uk:"a person who takes photos as a job",ex:"The ___ took beautiful photos at the wedding.",ans:"photographer",col:["a wedding photographer","a professional photographer"],dict:"photographer"},
+{lesson:L2,en:"police officer",uk:"a person who keeps people safe and stops crime",ex:"A police ___ helped us find the street.",ans:"officer",col:["call a police officer","ask a police officer"],dict:"police officer"},
+{lesson:L2,en:"shop assistant",uk:"a person who works in a shop and helps customers",ex:"The shop ___ helped me find the right size.",ans:"assistant",col:["ask a shop assistant","a friendly shop assistant"],dict:"shop assistant"},
+{lesson:L2,en:"waiter/waitress",uk:"a person who brings food and drinks in a restaurant",ex:"The ___ brought us two coffees.",ans:"waiter",alt:["waitress"],col:["a friendly waiter","call the waiter"],dict:"waiter"},
+{lesson:L2,en:"boring",uk:"not interesting",ex:"The film was so ___ that I fell asleep.",ans:"boring",col:["a boring film","boring work"],dict:"boring"},
+{lesson:L2,en:"creative",uk:"able to think of new and interesting ideas",ex:"She is very ___. She paints and writes songs.",ans:"creative",col:["a creative person","very creative"],dict:"creative"},
+{lesson:L2,en:"dangerous",uk:"able to hurt you",ex:"It is ___ to swim in the sea at night.",ans:"dangerous",col:["a dangerous job","very dangerous"],dict:"dangerous"},
+{lesson:L2,en:"dirty; get dirty",uk:"not clean; to become not clean",ex:"My shoes are ___ after the walk.",ans:"dirty",col:["get dirty","dirty clothes","dirty hands"],dict:"dirty",acc:["dirty","get dirty"],say:"dirty, get dirty"},
+{lesson:L2,en:"easy",uk:"not difficult",ex:"The test was ___. I answered every question.",ans:"easy",col:["an easy test","easy to use"],dict:"easy"},
+{lesson:L2,en:"exciting",uk:"making you feel very interested and happy",ex:"The football match was very ___.",ans:"exciting",col:["an exciting game","exciting news"],dict:"exciting"},
+{lesson:L2,en:"hard",uk:"difficult; not easy to do",ex:"Learning Chinese is ___ for me.",ans:"hard",alt:["difficult"],col:["hard work","a hard test"],dict:"hard"},
+{lesson:L2,en:"interesting",uk:"making you want to know more",ex:"I'm reading an ___ book about animals.",ans:"interesting",col:["an interesting story","very interesting"],dict:"interesting"},
+{lesson:L2,en:"scary",uk:"making you feel afraid",ex:"That film is too ___ for small children.",ans:"scary",col:["a scary film","a scary dream"],dict:"scary"},
+{lesson:L2,en:"tiring",uk:"making you feel tired",ex:"Working all day in the garden is very ___.",ans:"tiring",col:["a tiring day","tiring work"],dict:"tiring"},
+{lesson:L2,en:"act",uk:"to play a part in a film or a play",ex:"She wants to ___ in films when she grows up.",ans:"act",col:["act in a film","act in a play"],dict:"act"},
+{lesson:L2,en:"careful",uk:"thinking about what you do so nothing bad happens",ex:"Be ___ with the hot coffee!",ans:"careful",col:["be careful","a careful driver"],dict:"careful"},
+{lesson:L2,en:"catch",uk:"to take and hold something that is moving",ex:"Can you ___ the ball?",ans:"catch",col:["catch a ball","catch a bus","catch a fish"],dict:"catch"},
+{lesson:L2,en:"clean",uk:"to make something not dirty",ex:"I ___ my room every Saturday.",ans:"clean",col:["clean the house","clean your hands"],dict:"clean"},
+{lesson:L2,en:"closed",uk:"not open",ex:"The shop is ___ on Sundays.",ans:"closed",col:["a closed door","closed on Sundays"],dict:"closed"},
+{lesson:L2,en:"display case",uk:"a glass box that shows things in a shop or museum",ex:"The museum keeps the old coins in a glass display ___.",ans:"case",col:["a glass display case","in a display case"],dict:"display case"},
+{lesson:L2,en:"drive",uk:"to control a car, a bus or a truck",ex:"My dad can ___ a big truck.",ans:"drive",col:["drive a car","drive to work"],dict:"drive"},
+{lesson:L2,en:"empty",uk:"with nothing inside",ex:"The fridge is ___. We need to buy food.",ans:"empty",col:["an empty box","an empty room"],dict:"empty"},
+{lesson:L2,en:"enjoy",uk:"to like doing something",ex:"I ___ playing tennis on Saturdays.",ans:"enjoy",col:["enjoy your meal","enjoy the weekend"],dict:"enjoy"},
+{lesson:L2,en:"everyone",uk:"all people",ex:"___ in my family likes pizza.",ans:"everyone",col:["everyone knows","hello, everyone"],dict:"everyone"},
+{lesson:L2,en:"fix",uk:"to repair something",ex:"My dad can ___ bikes.",ans:"fix",col:["fix a car","fix a problem"],dict:"fix"},
+{lesson:L2,en:"garage",uk:"a place where cars are kept or repaired",ex:"Dad is in the ___ with his car.",ans:"garage",col:["in the garage","a car garage"],dict:"garage"},
+{lesson:L2,en:"glow",uk:"to give a soft light",ex:"The stars ___ in the night sky.",ans:"glow",col:["glow in the dark","glow at night"],dict:"glow"},
+{lesson:L2,en:"grow up",uk:"to change from a child into an adult",ex:"When I ___ up, I want to be a doctor.",ans:"grow",col:["when I grow up","grow up in a small town"],dict:"grow up",acc:["grow up"]},
+{lesson:L2,en:"inside",uk:"in a room, a house or a box",ex:"It's cold, so let's stay ___.",ans:"inside",col:["go inside","inside the box"],dict:"inside"},
+{lesson:L2,en:"kill",uk:"to make a person, an animal or a plant die",ex:"Too much sun can ___ a plant.",ans:"kill",col:["kill insects","kill a plant"],dict:"kill"},
+{lesson:L2,en:"look for",uk:"to try to find something",ex:"Please help me ___ for my keys.",ans:"look",col:["look for a job","look for my phone"],dict:"look for",acc:["look for"]},
+{lesson:L2,en:"other",uk:"not this one; a different one",ex:"One shoe is here. Where is the ___ shoe?",ans:"other",col:["the other day","the other side"],dict:"other"},
+{lesson:L2,en:"phone",uk:"a small device you use to call people",ex:"My ___ is on the table.",ans:"phone",col:["a mobile phone","on the phone"],dict:"phone"},
+{lesson:L2,en:"rattlesnake",uk:"a dangerous snake that makes a noise with its tail",ex:"A ___ lives in the desert and can bite you.",ans:"rattlesnake",col:["a rattlesnake bite","a dangerous rattlesnake"],dict:"rattlesnake",say:"rattle snake"},
+{lesson:L2,en:"space",uk:"the place far above the Earth, where the stars are",ex:"Astronauts travel into ___.",ans:"space",col:["outer space","travel into space"],dict:"space"},
+{lesson:L2,en:"take photos",uk:"to make pictures with a camera or a phone",ex:"I love to ___ photos of animals.",ans:"take",col:["take photos of animals","take photos with a phone"],dict:"photo",acc:["take photos"]},
+{lesson:L2,en:"tool",uk:"something you hold in your hand to do a job",ex:"A hammer is a ___ for building.",ans:"tool",col:["a useful tool","a tool box"],dict:"tool"},
+{lesson:L2,en:"touch",uk:"to put your hand on something",ex:"Don’t ___ the stove. It's hot!",ans:"touch",col:["touch your face","don’t touch"],dict:"touch"},
+{lesson:L2,en:"use",uk:"to do a job with something",ex:"Can I ___ your phone, please?",ans:"use",col:["use a computer","use a tool"],dict:"use"},
+{lesson:L2,en:"unusual",uk:"not normal; different from other things",ex:"A purple dog is very ___.",ans:"unusual",col:["an unusual name","something unusual"],dict:"unusual"},
+{lesson:L2,en:"wear",uk:"to have clothes or shoes on your body",ex:"I always ___ a hat in summer.",ans:"wear",col:["wear a uniform","wear glasses"],dict:"wear"},
+{lesson:L2,en:"wild",uk:"living in nature, not with people",ex:"Wolves are ___ animals.",ans:"wild",col:["wild animals","a wild cat"],dict:"wild"},
+{lesson:L2,en:"in the wild",uk:"in nature, not in a zoo",ex:"Pandas live in the ___ in China.",ans:"wild",col:["live in the wild","see animals in the wild"],dict:"in the wild",acc:["in the wild"]},
+{lesson:L2,en:"work",uk:"to do a job",ex:"My mum ___ in a hospital.",ans:"works",col:["go to work","work hard","work in a shop"],dict:"work"}
 ];
 const FORKS=[
 {lesson:L1,word:"feel",ok:["happy","sad","scared","worried"],bad:["punctual"],why:"We feel happy, sad, scared or worried. Punctual describes a habit (always on time), not a feeling."},
 {lesson:L1,word:"very",ok:["angry","brave","lazy","excited"],bad:["identical"],why:"We say very angry, very brave, very lazy and very excited. Identical already means exactly the same, so we don't say very identical."},
-{lesson:L1,word:"visit",ok:["my aunt","my uncle","my nephew","a beekeeper"],bad:["honey"],why:"We visit people and places: my aunt, my uncle, my nephew, a beekeeper. We don't visit honey. We collect it or eat it."}
+{lesson:L1,word:"visit",ok:["my aunt","my uncle","my nephew","a beekeeper"],bad:["honey"],why:"We visit people and places: my aunt, my uncle, my nephew, a beekeeper. We don't visit honey. We collect it or eat it."},
+{lesson:L2,word:"work",ok:["hard","in a shop","as a nurse","with children"],bad:["a photo"],why:"We work hard, in a shop, as a nurse or with children. We don't work a photo. We take it."},
+{lesson:L2,word:"take",ok:["photos","a bus","care of a pet","a break"],bad:["a work"],why:"We take photos, a bus, care of a pet or a break. We don't say take a work. We say go to work or do work."},
+{lesson:L2,word:"wear",ok:["a uniform","glasses","a hat","shoes"],bad:["a garage"],why:"We wear clothes, shoes, glasses and hats. We don't wear a garage. We keep a car in it."}
 ];
 const SORTS=[
 {lesson:L1,title:"Sort the phrases into four groups",cats:{
  "Family":["nephew","niece","uncle","stepmother"],
  "Feelings":["angry","bored","excited","worried"],
  "Personality":["brave","lazy","patient","optimistic"],
- "How often":["always","usually","rarely","never"]}}
+ "How often":["always","usually","rarely","never"]}},
+{lesson:L2,title:"Sort the phrases into four groups",cats:{
+ "Jobs":["nurse","chef","mechanic","musician"],
+ "Adjectives":["boring","easy","scary","tiring"],
+ "Verbs":["catch","drive","fix","wear"],
+ "Places and things":["garage","phone","tool","display case"]}}
 ];
 /* ES: Spanish translations (en -> es), shown when the meaning language is Spanish.
    A phrase without an entry here shows its English meaning. ES_WHY: fork explanations by key word.
    ES_TITLES / ES_CATS: Spanish names for sort titles and group names (the English names above stay as the keys). */
 const ES={
-"only child":"hijo único, hija única","nephew":"sobrino","stepmother":"madrastra","stepfather":"padrastro","daughter":"hija","son":"hijo","twin":"gemelo, gemela","uncle":"tío","aunt":"tía","niece":"sobrina","wife":"esposa, mujer","husband":"esposo, marido","darling":"cariño, querido, querida","tanning":"tomar el sol, broncearse","lying":"tumbado, tumbada","identical":"idéntico","beehive":"colmena (de abejas)","beekeeper":"apicultor, apicultora","to take care of":"cuidar de","hive":"colmena","honey":"miel","visit":"visitar","important":"importante","healthy":"sano, saludable","ill":"enfermo","then":"entonces, luego","so":"así que, por eso","calm":"tranquilo, calmado","patient":"paciente","to scare":"asustar","hard-working":"trabajador","insect":"insecto","collect":"recoger, coleccionar","feelings":"sentimientos","angry":"enfadado","bored":"aburrido","excited":"emocionado, entusiasmado","happy":"feliz, contento","sad":"triste","scared":"asustado, con miedo","worried":"preocupado","personality":"personalidad, carácter","brave":"valiente","late":"tarde, retrasado","lazy":"perezoso, vago","nice":"agradable, simpático","optimistic":"optimista","punctual":"puntual","always":"siempre","usually":"normalmente, generalmente","often":"a menudo, con frecuencia","sometimes":"a veces","rarely":"rara vez, raramente","hardly ever":"casi nunca","never":"nunca","borrow":"tomar prestado, pedir prestado","especially":"especialmente, sobre todo","light brown":"marrón claro, castaño claro","dark blonde":"rubio oscuro"
+"only child":"hijo único, hija única","nephew":"sobrino","stepmother":"madrastra","stepfather":"padrastro","daughter":"hija","son":"hijo","twin":"gemelo, gemela","uncle":"tío","aunt":"tía","niece":"sobrina","wife":"esposa, mujer","husband":"esposo, marido","darling":"cariño, querido, querida","tanning":"tomar el sol, broncearse","lying":"tumbado, tumbada","identical":"idéntico","beehive":"colmena (de abejas)","beekeeper":"apicultor, apicultora","to take care of":"cuidar de","hive":"colmena","honey":"miel","visit":"visitar","important":"importante","healthy":"sano, saludable","ill":"enfermo","then":"entonces, luego","so":"así que, por eso","calm":"tranquilo, calmado","patient":"paciente","to scare":"asustar","hard-working":"trabajador","insect":"insecto","collect":"recoger, coleccionar","feelings":"sentimientos","angry":"enfadado","bored":"aburrido","excited":"emocionado, entusiasmado","happy":"feliz, contento","sad":"triste","scared":"asustado, con miedo","worried":"preocupado","personality":"personalidad, carácter","brave":"valiente","late":"tarde, retrasado","lazy":"perezoso, vago","nice":"agradable, simpático","optimistic":"optimista","punctual":"puntual","always":"siempre","usually":"normalmente, generalmente","often":"a menudo, con frecuencia","sometimes":"a veces","rarely":"rara vez, raramente","hardly ever":"casi nunca","never":"nunca","borrow":"tomar prestado, pedir prestado","especially":"especialmente, sobre todo","light brown":"marrón claro, castaño claro","dark blonde":"rubio oscuro",
+"actor/actress":"actor, actriz","chef":"cocinero, cocinera, chef","cleaner":"limpiador, limpiadora","computer technician":"técnico informático, técnica informática","doctor":"médico, médica, doctor","driver":"conductor, conductora","farmer":"granjero, agricultor, agricultora","firefighter":"bombero, bombera","guard":"guardia, vigilante","hairdresser":"peluquero, peluquera","job":"trabajo, empleo","mechanic":"mecánico, mecánica","musician":"músico, música","nurse":"enfermero, enfermera","photographer":"fotógrafo, fotógrafa","police officer":"policía, agente de policía","shop assistant":"dependiente, dependienta","waiter/waitress":"camarero, camarera",
+"boring":"aburrido (que aburre)","creative":"creativo","dangerous":"peligroso","dirty; get dirty":"sucio; ensuciarse","easy":"fácil","exciting":"emocionante","hard":"difícil, duro","interesting":"interesante","scary":"que da miedo","tiring":"agotador, que cansa",
+"act":"actuar","careful":"cuidadoso, con cuidado","catch":"atrapar, coger","clean":"limpiar; limpio","closed":"cerrado","display case":"vitrina","drive":"conducir","empty":"vacío","enjoy":"disfrutar","everyone":"todos, todo el mundo","fix":"arreglar, reparar","garage":"garaje, taller","glow":"brillar, resplandecer","grow up":"crecer, hacerse mayor","inside":"dentro, en el interior","kill":"matar","look for":"buscar","other":"otro","phone":"teléfono","rattlesnake":"serpiente de cascabel","space":"espacio","take photos":"hacer fotos","tool":"herramienta","touch":"tocar","use":"usar, utilizar","unusual":"inusual, poco común","wear":"llevar puesto, vestir","wild":"salvaje","in the wild":"en libertad, en la naturaleza","work":"trabajar, trabajo"
 };
 const ES_WHY={
 "feel":"Decimos feel happy, feel sad, feel scared y feel worried. Punctual describe un hábito (siempre a tiempo), no un sentimiento.",
 "very":"Decimos very angry, very brave, very lazy y very excited. Identical ya significa exactamente igual, por eso no decimos very identical.",
-"visit":"Visitamos personas y lugares: my aunt, my uncle, my nephew, a beekeeper. No decimos visit honey: la miel se recoge (collect) o se come."
+"visit":"Visitamos personas y lugares: my aunt, my uncle, my nephew, a beekeeper. No decimos visit honey: la miel se recoge (collect) o se come.",
+"work":"Decimos work hard, work in a shop, work as a nurse y work with children. No decimos work a photo: una foto se hace (take).",
+"take":"Decimos take photos, take a bus, take care of a pet y take a break. No decimos take a work. Decimos go to work o do work.",
+"wear":"Decimos wear a uniform, glasses, a hat y shoes. No decimos wear a garage: un coche se guarda en un garaje."
 };
 const ES_TITLES={"Sort the phrases into four groups":"Clasifica las frases en cuatro grupos"};
-const ES_CATS={"Family":"Familia","Feelings":"Sentimientos","Personality":"Personalidad","How often":"Con qué frecuencia"};
+const ES_CATS={"Family":"Familia","Feelings":"Sentimientos","Personality":"Personalidad","How often":"Con qué frecuencia","Jobs":"Trabajos","Adjectives":"Adjetivos","Verbs":"Verbos","Places and things":"Lugares y cosas"};
 /*DATA END*/
 
 /* ============ interface texts (en / bg) ============ */
@@ -491,15 +563,15 @@ function startEx(ty){
   if(ty==="fork"){X.q=shuffle(FORKS.filter(inSel)).map(f=>({f,opts:shuffle([...f.ok,...f.bad])}));X.sel=[];}
   else if(ty==="sort"){X.sets=SORTS.filter(inSel);X.s=0;if(X.sets.length)initSort();}
   else if(ty==="match"){
-    const seen=new Set(),items=[];shuffle(p.slice()).forEach(c=>{if(items.length<6&&!seen.has(mean(c))){seen.add(mean(c));items.push(c);}});
-    X.items=items;X.L=shuffle(items.map(c=>c.en));X.R=shuffle(items.map(c=>c.en));X.done=[];X.pend=null;X.flash=null;
+    const seen=new Set(),items=[];shuffle(p.slice()).forEach(c=>{if(!seen.has(mean(c))){seen.add(mean(c));items.push(c);}});
+    X.all=items;X.n=0;X.items=items.slice(0,6);X.L=shuffle(X.items.map(c=>c.en));X.R=shuffle(X.items.map(c=>c.en));X.done=[];X.pend=null;X.flash=null;
   }else if(ty==="quiz"){
-    X.q=sample(p,10).map(c=>{
+    X.q=shuffle(p.slice()).map(c=>{
       const dir=Math.random()<.5?0:1,txt=o=>dir?o.en:mean(o),right=txt(c),used=new Set([right]),d=[];
       shuffle(CARDS.filter(o=>o.en!==c.en)).forEach(o=>{if(d.length<3&&!used.has(txt(o))){used.add(txt(o));d.push(txt(o));}});
       return {c,dir,right,opts:shuffle([right,...d])};});
     X.pick=null;
-  }else X.q=sample(p,10);
+  }else X.q=shuffle(p.slice());
   X.empty=(ty==="fork"?!X.q.length:ty==="sort"?!X.sets.length:ty==="match"?X.items.length<2:!X.q.length);
   render();
 }
@@ -525,7 +597,7 @@ function renderEx(){
 }
 const prog=()=>`<div class="bar"><i style="width:${Math.round(X.i/X.q.length*100)}%"></i></div>`;
 function vMatch(){
-  if(X.done.length===X.items.length)return resultView(t("rMatch"),X.items.length-new Set(X.wrong).size,X.items.length);
+  if(X.done.length===X.items.length)return resultView(t("rMatch"),X.all.length-new Set(X.wrong).size,X.all.length);
   const L=X.L.map(en=>{const d=X.done.includes(en);return `<button class="opt ${d?"done":""} ${X.pend&&X.pend.side==="l"&&X.pend.k===en?"on":""} ${X.flash&&X.flash.l===en?"bad":""}" data-act="x-m" data-side="l" data-k="${esc(en)}" ${d?"disabled":""}>${esc(en)}</button>`;}).join("");
   const R=X.R.map(en=>{const d=X.done.includes(en);return `<button class="opt ${d?"done":""} ${X.pend&&X.pend.side==="r"&&X.pend.k===en?"on":""} ${X.flash&&X.flash.r===en?"bad":""}" data-act="x-m" data-side="r" data-k="${esc(en)}" ${d?"disabled":""}>${esc(mean(BY[en]))}</button>`;}).join("");
   return `<div class="panel"><p class="muted">${esc(t("matchHelp"))}</p><div class="mgrid"><div class="col">${L}</div><div class="col">${R}</div></div></div>`;
@@ -590,7 +662,7 @@ function xAct(a,el){
       const side=el.dataset.side,k=el.dataset.k;
       if(!X.pend||X.pend.side===side){X.pend={side,k};break;}
       const l=side==="l"?k:X.pend.k,r=side==="r"?k:X.pend.k;X.pend=null;
-      if(l===r)X.done.push(l);else{X.wrong.push(l);X.flash={l,r};setTimeout(()=>{if(X){X.flash=null;render();}},600);}
+      if(l===r){X.done.push(l);if(X.done.length===X.items.length&&X.n+6<X.all.length){X.n+=6;X.items=X.all.slice(X.n,X.n+6);X.L=shuffle(X.items.map(c=>c.en));X.R=shuffle(X.items.map(c=>c.en));X.done=[];}}else{X.wrong.push(l);X.flash={l,r};setTimeout(()=>{if(X){X.flash=null;render();}},600);}
       break;}
     case"x-hint":X.val=xInput();X.hint=true;break;
     case"x-check":{
